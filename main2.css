@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  height: 100vh;
+  cursor: default;
+}
+
+#coords {
+  position: fixed;
+  pointer-events: none;
+  white-space: nowrap;
+  font-family: sans-serif;
+  font-weight: bold;
+  transform: translate(15px, 15px);
+  will-change: left, top;
+}
